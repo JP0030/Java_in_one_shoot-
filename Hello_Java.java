@@ -5,7 +5,6 @@ public class Hello_Java {
         System.out.println(" , are you ok");
         System.out.print("Yaa i'm all ok");
 
-
     }
 
 }
