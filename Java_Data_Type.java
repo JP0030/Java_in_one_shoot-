@@ -28,9 +28,9 @@ public class Java_Data_Type {
     public static void main(String[] args) {
         
     
-    int myNum = 5;               // Integer (whole number)
-    float myFloatNum = 5.99f;    // Floating point number
-    char myLetter = 'D';         // Character
+    int myNum = 18;               // Integer (whole number)
+    float myFloatNum = 8.76f;    // Floating point number
+    char myLetter = 'K';         // Character
     boolean myBool = true;       // Boolean
     String myText = "Hello";     // String
 
