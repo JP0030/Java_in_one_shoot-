@@ -56,7 +56,7 @@ public class Java_Data_Type {
     float f1 = 18e2f;
     double d1 = 61E5d;
     System.out.println(f1);
-    System.out.println(d1);
+    System.out.println(d1 + "\n");
     /*
     Here's a breakdown of the number 18e2f:
 
@@ -69,5 +69,36 @@ public class Java_Data_Type {
     */
     //Single-precision floats (32 bits): They offer a balance between range and precision for many applications.
     //Double-precision floats (64 bits): They provide higher precision but may consume more memory.
-    }
+
+    /*
+        Java Type Casting
+     
+            => Type casting is when you assign a value of one primitive data type to another type.
+
+                In Java, there are two types of casting:
+
+                    => Widening Casting (automatically) - converting a smaller type to a larger type size
+                            byte -> short -> char -> int -> long -> float -> double
+
+                    => Narrowing Casting (manually) - converting a larger type to a smaller size type
+                            double -> float -> long -> int -> char -> short -> byte
+    */
+
+    // Widening Casting
+
+    int myInt = 18;
+    double myDouble = myInt; // Automatic casting: int to double
+        
+    System.out.println(myInt);      // Outputs 18
+    System.out.println(myDouble + "\n");   // Outputs 18.0
+
+    // Narrowing Casting
+
+    double myDouble1 = 18.65d;
+    int myInt1 = (int) myDouble1; // Manual casting: double to int
+
+    System.out.println(myDouble1);   // Outputs 18.65
+    System.out.println(myInt1);      // Outputs 18
+
+    }    
 }
